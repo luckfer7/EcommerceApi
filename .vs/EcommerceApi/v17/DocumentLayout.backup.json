@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBECA355-C913-41C9-A516-C6B173FC349D}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\lucas\\desktop\\ecommerceapi\\ecommerceapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +58,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "EcommerceApi\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Categoria.cs",
-              "RelativeToolTip": "EcommerceApi\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\AuthService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T23:28:40.762Z",
+              "WhenOpened": "2025-07-03T23:58:45.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "EcommerceApi\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:20:33.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EcommerceApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\appsettings.json",
+              "RelativeToolTip": "EcommerceApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T22:37:14.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "EcommerceApi\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:22:37.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "EcommerceApi\\Models\\Produto.cs",
@@ -67,38 +118,36 @@
               "RelativeToolTip": "EcommerceApi\\Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T23:16:20.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T23:16:20.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "EcommerceApi\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Usuario.cs",
               "RelativeToolTip": "EcommerceApi\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T22:55:45.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\appsettings.json",
-              "RelativeDocumentMoniker": "EcommerceApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\appsettings.json",
-              "RelativeToolTip": "EcommerceApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-01T22:37:14.221Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\Categoria.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:28:40.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Program.cs",
               "RelativeDocumentMoniker": "EcommerceApi\\Program.cs",
@@ -106,18 +155,17 @@
               "RelativeToolTip": "EcommerceApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:40:46.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T22:40:46.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EcommerceApi\\Models\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\lucas\\Desktop\\EcommerceApi\\EcommerceApi\\Models\\AppDbContext.cs",
               "RelativeToolTip": "EcommerceApi\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T22:08:33.463Z",
               "EditorCaption": ""
