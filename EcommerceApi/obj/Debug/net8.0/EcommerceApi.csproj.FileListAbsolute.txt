@@ -170,3 +170,5 @@ C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.p
 C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.genruntimeconfig.cache
 C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\obj\Debug\net8.0\ref\EcommerceApi.dll
 C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lucas\Desktop\EcommerceApi\EcommerceApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

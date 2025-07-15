@@ -1,5 +1,7 @@
-﻿using EcommerceApi.DTOs;
+﻿using System.Security.Claims;
+using EcommerceApi.DTOs;
 using EcommerceApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApi.Controllers
@@ -49,6 +51,26 @@ namespace EcommerceApi.Controllers
             {
                 return Unauthorized(new { error = ex.Message });
             }
+        }
+
+        [HttpGet("me")]
+        [Authorize]
+        public IActionResult GetUser()
+        //Essa é a rota protegida que retorna os dados do usuário logado.
+        {
+
+            //esse user.findfirst Recupera os dados (claims) salvos no token
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var email = User.FindFirst(ClaimTypes.Email)?.Value;
+            var nome = User.FindFirst(ClaimTypes.Name)?.Value;
+
+            return Ok(new
+            {
+                //Retorna os dados do usuário no formato JSON
+                id = userId,
+                email,
+                nome
+            });
         }
     }
 }
