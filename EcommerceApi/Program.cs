@@ -54,6 +54,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<ProdutoService>();
+builder.Services.AddScoped<CategoriaService>();
 
 //Pega a chave secreta do appsettings.json (Jwt:Key)
 //Converte essa chave em um array de bytes, pois o JWT precisa disso para criptografar e validar o tokenPega a chave secreta do appsettings.json (Jwt:Key)
