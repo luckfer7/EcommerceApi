@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "EcommerceApi.Controllers.FavoritosController",
+    "Method": "Adicionar",
+    "RelativePath": "favoritos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EcommerceApi.DTOs.FavoritoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApi.Controllers.FavoritosController",
+    "Method": "Listar",
+    "RelativePath": "favoritos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApi.Controllers.FavoritosController",
+    "Method": "Remover",
+    "RelativePath": "favoritos/{produtoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceApi.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "login",

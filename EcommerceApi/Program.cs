@@ -1,5 +1,7 @@
 using System.Text;
 using EcommerceApi.Models;
+using EcommerceApi.Repositories;
+using EcommerceApi.Repositories.Interfaces;
 using EcommerceApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +58,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<ProdutoService>();
 builder.Services.AddScoped<CategoriaService>();
+builder.Services.AddScoped<IFavoritoRepository, FavoritoRepository>();
+builder.Services.AddScoped<FavoritoService>();
 
 //Pega a chave secreta do appsettings.json (Jwt:Key)
 //Converte essa chave em um array de bytes, pois o JWT precisa disso para criptografar e validar o tokenPega a chave secreta do appsettings.json (Jwt:Key)
