@@ -24,7 +24,7 @@ namespace EcommerceApi.Controllers
                 var usuario = _authService.Registrar(dto);
                 return Ok(new
                 {
-                    message = "Usuário egistrado com sucesso",
+                    message = "Usuário registrado com sucesso",
                     usuario = new { usuario.Id, usuario.Nome, usuario.Email }
 
                 });
