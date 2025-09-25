@@ -2,8 +2,8 @@
 
 namespace EcommerceApi.Repositories.Interfaces
 {
-    public class ICarrinhoItemsRepository
+    public interface ICarrinhoItemsRepository
     {
-        //Task AdicionarItemAoCarrinhoAsync(CarrinhoItem carrinhoItem);
+        Task AdicionarItemAoCarrinhoAsync(CarrinhoItem carrinhoItem);
     }
 }

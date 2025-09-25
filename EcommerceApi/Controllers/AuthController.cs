@@ -1,11 +1,14 @@
 ﻿using System.Security.Claims;
 using EcommerceApi.DTOs;
+using EcommerceApi.Models;
 using EcommerceApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApi.Controllers
 {
+    [ApiController]
+    [Route("auth")]
     public class AuthController : ControllerBase
     {
         private readonly AuthService _authService;
@@ -41,10 +44,13 @@ namespace EcommerceApi.Controllers
         {
             try
             {
+                var usuario = _authService.Login(dto);
+
                 var token = _authService.Login(dto);
                 return Ok(new
                 {
-                    token
+                    token,
+                    usuario
                 });
             }
             catch (Exception ex)
