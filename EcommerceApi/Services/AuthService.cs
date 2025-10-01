@@ -41,19 +41,39 @@ namespace EcommerceApi.Services
         }
 
         // Método para autenticar um usuário e gerar um token JWT
-        public string Login(LoginDto dto)
+        //public string Login(LoginDto dto)
+        //{
+        //    // Procura o usuário no banco pelo email
+        //    var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == dto.Email);
+
+        //    // Se não encontrar ou se a senha não bater, lança exceção
+        //    if (usuario == null || !BCrypt.Net.BCrypt.Verify(dto.Senha, usuario.SenhaHash))
+        //    {
+        //        throw new Exception("Credenciais inválidas");
+        //    }
+
+        //    // Se autenticado, gera e retorna o token JWT
+        //    return GerarToken(usuario);
+        //}
+
+        public LoginResponseDto Login(LoginDto dto)
         {
-            // Procura o usuário no banco pelo email
             var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == dto.Email);
 
-            // Se não encontrar ou se a senha não bater, lança exceção
             if (usuario == null || !BCrypt.Net.BCrypt.Verify(dto.Senha, usuario.SenhaHash))
             {
                 throw new Exception("Credenciais inválidas");
             }
 
-            // Se autenticado, gera e retorna o token JWT
-            return GerarToken(usuario);
+            var token = GerarToken(usuario);
+
+            return new LoginResponseDto
+            {
+                Token = token,
+                Id = usuario.Id,
+                Nome = usuario.Nome,
+                Email = usuario.Email
+            };
         }
 
         // Método privado para gerar o token JWT do usuário

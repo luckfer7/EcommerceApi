@@ -50,18 +50,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "produtoId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "produto",
-        "Type": "EcommerceApi.Models.Produto",
+        "Name": "carrinhoDto",
+        "Type": "EcommerceApi.DTOs.CarrinhoDto",
         "IsRequired": true
       }
     ],

@@ -44,14 +44,9 @@ namespace EcommerceApi.Controllers
         {
             try
             {
-                var usuario = _authService.Login(dto);
+                var response = _authService.Login(dto);
 
-                var token = _authService.Login(dto);
-                return Ok(new
-                {
-                    token,
-                    usuario
-                });
+                return Ok(response);                
             }
             catch (Exception ex)
             {

@@ -1,4 +1,5 @@
-﻿using EcommerceApi.Models;
+﻿using EcommerceApi.DTOs;
+using EcommerceApi.Models;
 using EcommerceApi.Repositories.Interfaces;
 
 namespace EcommerceApi.Services
@@ -12,13 +13,12 @@ namespace EcommerceApi.Services
             _repo = repo;
         }
 
-        public async Task AdicionarItemAoCarrinhoAsync(int Id, int produtoId, Produto produto)
+        public async Task AdicionarItemAoCarrinhoAsync(CarrinhoDto dto)
         {
-            var carrinhoItem = new Models.CarrinhoItem
+            var carrinhoItem = new CarrinhoItem
             {
-                Id = Id,
-                ProdutoId = produtoId,
-                Produto = produto
+                UsuarioId = dto.UsuarioId,
+                ProdutoId = dto.ProdutoId
 
             };
             await _repo.AdicionarItemAoCarrinhoAsync(carrinhoItem);

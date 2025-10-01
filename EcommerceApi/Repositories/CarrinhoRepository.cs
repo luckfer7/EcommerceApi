@@ -1,8 +1,9 @@
 ﻿using EcommerceApi.Models;
+using EcommerceApi.Repositories.Interfaces;
 
 namespace EcommerceApi.Repositories
 {
-    public class CarrinhoRepository
+    public class CarrinhoRepository : ICarrinhoItemsRepository
     {
         private readonly AppDbContext _context;
 

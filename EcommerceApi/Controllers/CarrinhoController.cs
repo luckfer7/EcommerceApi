@@ -1,4 +1,5 @@
-﻿using EcommerceApi.Services;
+﻿using EcommerceApi.DTOs;
+using EcommerceApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApi.Controllers
@@ -16,10 +17,10 @@ namespace EcommerceApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AdicionarItemAoCarrinho(int Id, int produtoId, Models.Produto produto)
+        public async Task<IActionResult> AdicionarItemAoCarrinho([FromBody] CarrinhoDto carrinhoDto)
         {
-            await _service.AdicionarItemAoCarrinhoAsync(Id, produtoId, produto);
-            return Ok();
+            await _service.AdicionarItemAoCarrinhoAsync(carrinhoDto);
+            return Ok(new { message = "Item adicionado ao carrinho com sucesso" });
         }
     }
 }
